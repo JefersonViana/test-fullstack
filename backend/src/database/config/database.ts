@@ -5,7 +5,7 @@ import { Options } from 'sequelize';
 const config: Options = {
   username: 'root',
   password: 'password',
-  database: 'store',
+  database: 'db.customers',
   host: 'localhost',
   port: 3306,
   dialect: 'mysql',

@@ -1,7 +1,8 @@
 import { Router } from 'express';
+import customerRouter from './customer.routes';
 
 const router = Router();
 
-router.use('/register', (req, res) => res.json({ ok: true }));
+router.use('/customers', customerRouter);
 
 export default router;
